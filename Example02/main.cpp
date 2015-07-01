@@ -1,6 +1,11 @@
 #include<iostream>
 #include"Position3D.h"
 
+/*
+	增加這一些廢話	
+*/
+
+
 using namespace std;
 
 typedef bool (*CMP)(int, int);
