@@ -1,6 +1,11 @@
 #include<iostream>
 #include"Position3D.h"
 
+/*
+	增加這一些廢話	
+*/
+
+
 /*我也新增了一些廢化*/
 
 using namespace std;
@@ -29,8 +34,6 @@ int main(int argc, char *argv[]) {
 	cout << ptr_position[1] << endl;
 	delete[] ptr_position;
 	
-	//*************************************************************
-	//**************************************************************
 
 	system("pause");
 	return 0;
