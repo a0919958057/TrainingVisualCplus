@@ -28,28 +28,6 @@ int main(int argc, char *argv[]) {
 	delete[] ptr_position;
 	
 	//*************************************************************
-	CMP less_compare = high_to_low;
-
-	for (int temp : array_int) {
-		cout << temp << "  ";
-	}
-	cout << endl;
-
-	sort_array(array_int, 8, less_compare);
-
-	for (int temp : array_int) {
-		cout << temp << "  ";
-	}
-	cout << endl;
-
-	less_compare = low_to_high;
-
-	sort_array(array_int, 8, less_compare);
-
-	for (int temp : array_int) {
-		cout << temp << "  ";
-	}
-	cout << endl;
 	//**************************************************************
 
 	system("pause");
