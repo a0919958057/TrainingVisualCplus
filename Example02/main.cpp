@@ -34,6 +34,8 @@ int main(int argc, char *argv[]) {
 	cout << ptr_position[1] << endl;
 	delete[] ptr_position;
 	
+	//*************************************************************
+	//**************************************************************
 
 	system("pause");
 	return 0;
